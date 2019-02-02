@@ -1,0 +1,72 @@
+:root {
+    --red: #824C71;
+    --yelow: #D2CCA1;
+    --purple: #4357AD;
+    --blue: #355691;
+    --green: #48A9A6;
+}
+
+#myPhoto{
+    padding-right: 24px;
+}
+
+#header {
+    color: #355691;
+    font-size: 3rem;
+    background-color: #D2CCA1;
+    padding-left: 30px;
+    padding-right: 30px;
+    -webkit-animation-name: headerAnim;
+    -webkit-animation-duration: 3s;
+    animation-name: headerAnim;
+    animation-duration: 3s;
+}
+
+@-webkit-keyframes headerAnim {
+    from {background-color: var(--blue);}
+    to {background-color: var(--yelow);}
+}
+@keyframes headerAnim {
+    from {background-color: var(--blue);}
+    to {background-color: var(--yelow);}
+}
+
+h2 {
+    font-family: 'Bree Serif', serif;
+    color: var(--red);
+}
+
+#myPhoto {
+    width: 150px;
+    height: auto;
+}
+
+#skills img {
+    width: 150px;
+    height: auto;
+}
+
+#personalData, #studies, #skills, #experience, #interests, #devSoftware, #languages, #references{
+    padding: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+}
+
+#personalData {
+    height: 18.4em;
+}
+
+.skillData {
+    padding-right: 23px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    margin: 0;
+    padding: 0;
+}
+
